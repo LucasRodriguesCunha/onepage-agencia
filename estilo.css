@@ -5,7 +5,6 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
-/* Cabeçalho */
 .banner {
     width: 100%;
     height: 600px;
@@ -41,12 +40,12 @@ html {
     padding-top: 65px;
 }
 
-.box-banner-title > h1 {
+.box-banner-title>h1 {
     font-size: 32px;
     margin-bottom: 25px;
 }
 
-.box-banner-title > p {
+.box-banner-title>p {
     font-size: 20px;
 }
 
@@ -71,11 +70,121 @@ html {
     width: 500px;
 }
 
-.company-info-titlebox > h2 > p {
+.company-info-titlebox>h2>p {
     color: #222;
 }
 
-.company-info-titlebox > h2 {
+.company-info-titlebox>h2 {
     margin-bottom: 30px;
     font-size: 24px;
+}
+
+.serviços-container {
+    max-width: 1200px;
+    padding: 30px 10%;
+    padding-bottom: 0px;
+}
+
+.serviços-box {
+    width: 100%;
+    position: relative;
+    clear: both;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.serviços-box:last {
+    margin-bottom: 0px;
+}
+
+.serviços-título {
+    width: 20%;
+    height: 150px;
+    background-color: #ddd;
+    float: left;
+    text-align: center;
+    line-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.serviços-título>p {
+    padding-top: 35px;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.serviços-descrição {
+    width: 80%;
+    float: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+    padding: 33.5px;
+}
+
+.serviços-descrição>h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.serviços-descrição h3>p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+#gerenciamento-título {
+    color: #2364aa;
+}
+
+#desenvolvimento-título {
+    color: #3da5d9;
+}
+
+#design-título {
+    color: #73bfb8;
+}
+
+#gerenciamento-box {
+    background-color: #2364aa;
+}
+
+#desenvolvimento-box {
+    background-color: #3da5d9;
+}
+
+#design-box {
+    background-color: #73bfb8;
+}
+
+.rodapé-container {
+    background-image: url(imagens/rodape.jpg);
+    background-position: center;
+}
+
+.sobre-container {
+    max-width: 1200px;
+    padding: 30px 10%;
+    position: relative;
+    clear: both;
+}
+
+.sobre-card {
+    border: solid 1px black;
+    margin: 10px;
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+    background-color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.sobre-card > p {
+    margin: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888;
+    text-align: justify;
 }
